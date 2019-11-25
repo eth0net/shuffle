@@ -1,0 +1,44 @@
+{
+  "name": "@shuffle/api",
+  "version": "0.1.0",
+  "description": "Shuffle API Server.",
+  "keywords": [],
+  "homepage": "https://github.com/raziel2244/shuffle/tree/master/packages/api#readme",
+  "bugs": {
+    "url": "https://github.com/raziel2244/shuffle/issues"
+  },
+  "license": "MIT",
+  "author": "Elliot Thomas <elliot@raziel.dev> (https://raziel.dev)",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "main": "dist/api.bundle.js",
+  "module": "src/api.js",
+  "directories": {
+    "lib": "src",
+    "doc": "doc",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raziel2244/shuffle/tree/master/packages/api"
+  },
+  "scripts": {
+    "dev": "nodemon src/api.js",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "apollo-server": "^2.9.11",
+    "graphql": "^14.5.8",
+    "sequelize": "^5.21.2",
+    "sqlite": "^3.0.3"
+  },
+  "optionalDependencies": {
+    "mysql2": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/sequelize": "^4.28.7",
+    "nodemon": "^2.0.0"
+  }
+}
