@@ -1,0 +1,37 @@
+{
+  "name": "@shuffle/app",
+  "version": "0.1.0",
+  "description": "Project Management App",
+  "keywords": [],
+  "homepage": "https://github.com/raziel2244/shuffle/tree/master/packages/app#readme",
+  "bugs": {
+    "url": "https://github.com/raziel2244/shuffle/issues"
+  },
+  "license": "MIT",
+  "author": "Elliot Thomas <elliot@raziel.dev> (https://raziel.dev)",
+  "main": "dist/app.bundle.js",
+  "module": "src/main.js",
+  "directories": {
+    "lib": "src",
+    "doc": "doc",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raziel2244/shuffle.git"
+  },
+  "scripts": {
+    "iconify": "node scripts/iconify-bundler.js",
+    "start": "electron .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@iconify/json": "^1.1.29",
+    "@iconify/json-tools": "^1.0.6",
+    "electron": "^7.0.0",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "electron-window-state": "^5.0.3"
+  }
+}

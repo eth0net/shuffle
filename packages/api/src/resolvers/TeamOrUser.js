@@ -1,4 +1,5 @@
-// Member resolver
+"use strict";
+
 module.exports = {
   __resolveType(root) {
     if (root.members) return "Team";

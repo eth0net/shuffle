@@ -1,0 +1,3 @@
+shuffle = {
+  init: function() {}
+};

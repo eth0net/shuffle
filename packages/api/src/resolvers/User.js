@@ -1,4 +1,6 @@
-// User resolver
+"use strict";
+
 module.exports = {
-  teams: user => user.getMembers()
+  teams: user => user.getTeams(),
+  projects: user => user.getProjects()
 };

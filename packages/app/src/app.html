@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shuffle</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"
+    />
+
+    <script src="../vendor/rzl/js/core.js"></script>
+    <script src="../vendor/rzl/js/ui.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../vendor/rzl/css/core.css" />
+
+    <link rel="stylesheet" type="text/css" href="app.css" />
+    <script src="app.js"></script>
+
+    <script src="../vendor/iconify/iconify.min.js"></script>
+    <script src="../vendor/iconify/bundle.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav id="menubar" class="container rzl-flex-row">
+        <div id="menubar-left" class="rzl-flex-row">
+          <a onclick="">
+            <iconify-icon data-icon="ion:apps-sharp"></iconify-icon>
+          </a>
+        </div>
+        <div id="menubar-right" class="rzl-flex-row">
+          <a onclick="">
+            <iconify-icon data-icon="ion:add"></iconify-icon>
+          </a>
+          <a onclick="">
+            <iconify-icon data-icon="ion:person"></iconify-icon>
+          </a>
+          <a onclick="">
+            <iconify-icon data-icon="ion:settings-sharp"></iconify-icon>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <div class="horizontal-divider"></div>
+    <section id="view">
+      <h1>Hello World!</h1>
+    </section>
+  </body>
+</html>
